@@ -20,6 +20,7 @@ n5-material-ui/out/
 n5-material-ui/build
 
 # misc
+.DS_Store
 n5-material-ui/.DS_Store
 n5-material-ui/*.pem
 
