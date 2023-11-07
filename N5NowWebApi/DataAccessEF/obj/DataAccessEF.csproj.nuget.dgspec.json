@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mariela/n5/N5-ggaleano/N5NowWebApi/DataAccessEF/DataAccessEF.csproj": {}
+  },
+  "projects": {
+    "/Users/mariela/n5/N5-ggaleano/N5NowWebApi/DataAccessEF/DataAccessEF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mariela/n5/N5-ggaleano/N5NowWebApi/DataAccessEF/DataAccessEF.csproj",
+        "projectName": "DataAccessEF",
+        "projectPath": "/Users/mariela/n5/N5-ggaleano/N5NowWebApi/DataAccessEF/DataAccessEF.csproj",
+        "packagesPath": "/Users/mariela/.nuget/packages/",
+        "outputPath": "/Users/mariela/n5/N5-ggaleano/N5NowWebApi/DataAccessEF/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mariela/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/mariela/n5/N5-ggaleano/N5NowWebApi/Domain/Domain.csproj": {
+                "projectPath": "/Users/mariela/n5/N5-ggaleano/N5NowWebApi/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.416/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mariela/n5/N5-ggaleano/N5NowWebApi/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mariela/n5/N5-ggaleano/N5NowWebApi/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/mariela/n5/N5-ggaleano/N5NowWebApi/Domain/Domain.csproj",
+        "packagesPath": "/Users/mariela/.nuget/packages/",
+        "outputPath": "/Users/mariela/n5/N5-ggaleano/N5NowWebApi/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mariela/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.416/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

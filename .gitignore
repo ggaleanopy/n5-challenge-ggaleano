@@ -1,0 +1,41 @@
+N5NowWebApi/N5NowWebApi/bin
+N5NowWebApi/N5NowWebApi/obj
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+n5-material-ui/node_modules
+n5-material-ui/.pnp
+n5-material-ui/.pnp.js
+n5-material-ui/.yarn/install-state.gz
+
+# testing
+n5-material-ui/coverage
+
+# next.js
+n5-material-ui/.next/
+n5-material-ui/out/
+
+# production
+n5-material-ui/build
+
+# misc
+n5-material-ui/.DS_Store
+n5-material-ui/*.pem
+
+# debug
+n5-material-ui/npm-debug.log*
+n5-material-ui/yarn-debug.log*
+n5-material-ui/yarn-error.log*
+
+# local env files
+n5-material-ui/.env*.local
+
+# vercel
+n5-material-ui/.vercel
+
+# typescript
+n5-material-ui/*.tsbuildinfo
+n5-material-ui/next-env.d.ts
+
+n5-material-ui/other.txt
