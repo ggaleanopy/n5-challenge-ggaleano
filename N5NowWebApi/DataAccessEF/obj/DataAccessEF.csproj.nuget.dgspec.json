@@ -1,33 +1,44 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mariela/n5/N5-ggaleano/N5NowWebApi/DataAccessEF/DataAccessEF.csproj": {}
+    "D:\\Docker\\N5Now\\n5-challenge-ggaleano\\N5NowWebApi\\DataAccessEF\\DataAccessEF.csproj": {}
   },
   "projects": {
-    "/Users/mariela/n5/N5-ggaleano/N5NowWebApi/DataAccessEF/DataAccessEF.csproj": {
+    "D:\\Docker\\N5Now\\n5-challenge-ggaleano\\N5NowWebApi\\DataAccessEF\\DataAccessEF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mariela/n5/N5-ggaleano/N5NowWebApi/DataAccessEF/DataAccessEF.csproj",
+        "projectUniqueName": "D:\\Docker\\N5Now\\n5-challenge-ggaleano\\N5NowWebApi\\DataAccessEF\\DataAccessEF.csproj",
         "projectName": "DataAccessEF",
-        "projectPath": "/Users/mariela/n5/N5-ggaleano/N5NowWebApi/DataAccessEF/DataAccessEF.csproj",
-        "packagesPath": "/Users/mariela/.nuget/packages/",
-        "outputPath": "/Users/mariela/n5/N5-ggaleano/N5NowWebApi/DataAccessEF/obj/",
+        "projectPath": "D:\\Docker\\N5Now\\n5-challenge-ggaleano\\N5NowWebApi\\DataAccessEF\\DataAccessEF.csproj",
+        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+        "outputPath": "D:\\Docker\\N5Now\\n5-challenge-ggaleano\\N5NowWebApi\\DataAccessEF\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/mariela/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/mariela/n5/N5-ggaleano/N5NowWebApi/Domain/Domain.csproj": {
-                "projectPath": "/Users/mariela/n5/N5-ggaleano/N5NowWebApi/Domain/Domain.csproj"
+              "D:\\Docker\\N5Now\\n5-challenge-ggaleano\\N5NowWebApi\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Docker\\N5Now\\n5-challenge-ggaleano\\N5NowWebApi\\Domain\\Domain.csproj"
               }
             }
           }
@@ -67,26 +78,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.416/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/mariela/n5/N5-ggaleano/N5NowWebApi/Domain/Domain.csproj": {
+    "D:\\Docker\\N5Now\\n5-challenge-ggaleano\\N5NowWebApi\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mariela/n5/N5-ggaleano/N5NowWebApi/Domain/Domain.csproj",
+        "projectUniqueName": "D:\\Docker\\N5Now\\n5-challenge-ggaleano\\N5NowWebApi\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/mariela/n5/N5-ggaleano/N5NowWebApi/Domain/Domain.csproj",
-        "packagesPath": "/Users/mariela/.nuget/packages/",
-        "outputPath": "/Users/mariela/n5/N5-ggaleano/N5NowWebApi/Domain/obj/",
+        "projectPath": "D:\\Docker\\N5Now\\n5-challenge-ggaleano\\N5NowWebApi\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
+        "outputPath": "D:\\Docker\\N5Now\\n5-challenge-ggaleano\\N5NowWebApi\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/mariela/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -120,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.416/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

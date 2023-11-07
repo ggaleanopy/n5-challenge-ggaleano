@@ -2,6 +2,7 @@
 using N5NowWebApi.Controllers;
 using N5NowWebApi.Commands;
 using N5NowWebApi.Queries;
+using N5NowWebApi.Handlers;
 using MediatR;
 using Moq;
 using System.Collections.Generic;
@@ -10,6 +11,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Domain;
 using System.Security;
+using System.Net;
 
 namespace TestProject
 {
@@ -26,6 +28,7 @@ namespace TestProject
             permissionController = new PermissionController(mediatorMock.Object);
         }
 
+        
         [Test]
         public async Task GetPermissions_Returns_ExpectedResult()
         {
@@ -66,10 +69,8 @@ namespace TestProject
         [Test]
         public async Task RequestPermission_Should_Return_RequestedPermission()
         {
-            // Arrange
             var expectedPermission = new Permission
             {
-                // Definir propiedades del permiso esperado
                 NombreEmpleado = "Kevin",
                 ApellidoEmpleado = "Bacon",
                 TipoPermiso = 1,
@@ -90,7 +91,7 @@ namespace TestProject
         [Test]
         public async Task ModifyPermission_Should_Return_ModifyPermission()
         {
-            var permissionId = 123; // ID del permiso que deseas actualizar
+            var permissionId = 11; // ID del permiso que deseas actualizar
             var updatedPermission = new Permission
             {
                 Id = permissionId,

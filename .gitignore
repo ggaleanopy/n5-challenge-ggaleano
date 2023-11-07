@@ -1,6 +1,20 @@
 N5NowWebApi/N5NowWebApi/bin
 N5NowWebApi/N5NowWebApi/obj
 
+N5NowWebApi/Domain/bin
+N5NowWebApi/Domain/obj
+
+N5NowWebApi/DataAccessEF/bin
+N5NowWebApi/DataAccessEF/obj
+
+N5NowWebApi/Integration.Test/bin
+N5NowWebApi/Integration.Test/obj
+
+N5NowWebApi/TestProject/bin
+N5NowWebApi/TestProject/obj
+
+TestResults
+
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
