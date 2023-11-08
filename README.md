@@ -19,6 +19,8 @@ Los demás archivos son utilizados por el docker para restaurar los servicios qu
 
     docker run -it --rm --network n5-challenge-ggaleano_default confluentinc/cp-kafka /bin/kafka-console-consumer --bootstrap-server kafka:9092 --topic permissions_topic --from-beginning
 
+  ** El nombre de la red *n5-challenge-ggaleano_default* puede variar. Si este comando lanza excepciones se debe verificar el nombre asignado a la red del grupo de contenedores con el comando *docker network ls* y reemplazarlo en el comando de arriba según corresponda.
+
 # Notas
 
 - Para poder ejecutar las pruebas unitarias y de integración es necesario restaurar el proyecto en Visual Studio 2022 y apuntar el servidor de base de datos en appsettings.json a *localhost:1431* en lugar de a *database:1433*.
